@@ -67,27 +67,27 @@
                         <div class="row mt-3">
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Aloo and Dal ki Tikki</div>
+                                    <input id="i1" class="col-6 text-center h3" value="Aloo and Dal ki Tikki"></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn1" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  99</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Cheese Balls</div>
+                                    <input id="i2" class="col-6 text-center h3" value="Cheese Balls" ></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn2" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  199</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Veg Crispy</div>
+                                    <input id="i3" class="col-6 text-center h3" value="Veg Crispy"></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn3" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  299</button>
                                     </div>
                                 </div>
@@ -100,27 +100,27 @@
                         <div class="row mt-3">
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Biryani</div>
+                                    <input id="i4" class="col-6 text-center h3" value="Biryani"></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn4" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  199</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Paneer Butter Masala</div>
+                                    <input id="i5" class="col-6 text-center h3" value="Paneer Butter Masala"></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn5" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  199</button>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-12 mt-3">
                                 <div class="row">
-                                    <div class="col-6 text-center h3">Chole Bhature</div>
+                                    <input id="i6" class="col-6 text-center h3" value="Chole Bhature"></input>
                                     <div class="col-6 text-center">
-                                        <button class="border-0 bg-success rounded-pill h4"
+                                        <button id="btn6" class="border-0 bg-success rounded-pill h4"
                                             style="width: 15rem;">Add &#8377  99</button>
                                     </div>
                                 </div>
@@ -133,27 +133,27 @@
                             <div class="row mt-3">
                                 <div class="col-12 mt-3">
                                     <div class="row">
-                                        <div class="col-6 text-center h3">Kaju Barfi</div>
+                                        <input id="i7" class="col-6 text-center h3" value="Kaju Barfi"></input>
                                         <div class="col-6 text-center">
-                                            <button class="border-0 bg-success rounded-pill h4"
+                                            <button id="btn7" class="border-0 bg-success rounded-pill h4"
                                                 style="width: 15rem;">Add &#8377  99</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
-                                        <div class="col-6 text-center h3">Gulab Jamun</div>
+                                        <input id="i8" class="col-6 text-center h3" value="Gulab Jamun"></input>
                                         <div class="col-6 text-center">
-                                            <button class="border-0 bg-success rounded-pill h4"
+                                            <button id="btn8" class="border-0 bg-success rounded-pill h4"
                                                 style="width: 15rem;">Add &#8377  199</button>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="col-12 mt-3">
                                     <div class="row">
-                                        <div class="col-6 text-center h3">Gajar Ka Halwa</div>
+                                        <input id="i9" class="col-6 text-center h3" value="Gajar Ka Halwa"></input>
                                         <div class="col-6 text-center">
-                                            <button class="border-0 bg-success rounded-pill h4"
+                                            <button id="btn9" class="border-0 bg-success rounded-pill h4"
                                                 style="width: 15rem;">Add &#8377  299</button>
                                         </div>
                                     </div>
@@ -215,7 +215,8 @@
                         <h5>Welcome Back</h5>
                         <p class="text-secondary p-0"><small>Your Cart</small></p>
                         <hr />
-
+                         <p onshow="aman()" id="items" class="text-center"></p>
+                         <p id="total" class="h4 border-2 font-weight-bold border border-primary"></p>
                     </div>
 
                 </div>
@@ -226,7 +227,7 @@
 
     </div>
 
-
+  <script src="menu.js"></script>
     <script src="https://kit.fontawesome.com/74e6adde73.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
