@@ -35,31 +35,9 @@ const desserts = JSON.parse(
 );
 const drinks = JSON.parse(
 	"[" +
-		'{ "type":"separator", "description":"WATER & SODA" },' +
-		'{ "type":"drink", "name":"SPARKLING WATER", "description":"5dl", "price":"4.50" },' +
 		'{ "type":"drink", "name":"STILL WATER", "description":"5dl", "price":"4.50" },' +
 		'{ "type":"drink", "name":"SODA", "description":"3dl", "price":"5.50" },' +
 		'{ "type":"drink", "name":"TAP WATER", "description":"", "price":"FREE" },' +
-		'{ "type":"separator", "description":"BEER" },' +
-		'{ "type":"drink", "name":"BADENER GOLD", "description":"3dl", "price":"4.80" },' +
-		'{ "type":"drink", "name":"BADENER GOLD", "description":"5dl", "price":"7.00" },' +
-		'{ "type":"drink", "name":"QUÖLLFRISCH", "description":"5dl", "price":"7.50" },' +
-		'{ "type":"drink", "name":"BIER PAUL 02", "description":"3.3dl", "price":"6.00" },' +
-		'{ "type":"separator", "description":"RED WINE" },' +
-		'{ "type":"drink", "name":"MERLOT DEL TICINO", "description":"1dl", "price":"7.00" },' +
-		'{ "type":"drink", "name":"BOLGHERI ROSSO", "description":"1dl", "price":"8.50" },' +
-		'{ "type":"drink", "name":"NERO D’AVOLA IGT", "description":"1dl", "price":"7.50" },' +
-		'{ "type":"drink", "name":"MONTE CASTANHEIRO", "description":"1dl", "price":"8.00" },' +
-		'{ "type":"separator", "description":"WHITE WINE & CHAMPAGNE" },' +
-		'{ "type":"drink", "name":"ST. SAPHORIN7", "description":"1dl", "price":"7.00" },' +
-		'{ "type":"drink", "name":"BASILICATA BIANCO", "description":"1dl", "price":"7.50" },' +
-		'{ "type":"drink", "name":"TAITTINGER BRUT", "description":"7.5dl", "price":"91.00" },' +
-		'{ "type":"separator", "description":"WHISKY" },' +
-		'{ "type":"drink", "name":"OBAN 14 YEARS", "description":"4cl", "price":"13.50" },' +
-		'{ "type":"drink", "name":"LAGAVULIN 16 YEARS", "description":"4cl", "price":"15.00" },' +
-		'{ "type":"drink", "name":"MACALLEN AMBER", "description":"4cl", "price":"16.00" },' +
-		'{ "type":"separator", "description":"HOT DRINKS" },' +
-		'{ "type":"drink", "name":"ESPRESSO", "description":"", "price":"4.50" },' +
 		'{ "type":"drink", "name":"CAFE LATTE", "description":"", "price":"4.50" },' +
 		'{ "type":"drink", "name":"TEA", "description":"", "price":"5.00" } ]'
 );
