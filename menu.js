@@ -4,11 +4,9 @@
 const starters = JSON.parse(
 	"[" +
 		'{ "type":"separator", "description":"APPETIZERS" },' +
-		'{ "type":"food", "name":"CROSTINI", "description":"with diced tomatoes, onions, garlic and basil", "price":"12.00" },' +
 		'{ "type":"food", "name":"NACHOS", "description":"with 2 dips of your choice, gratinated with cheese and sliced chicken", "price":"10.50" },' +
 		'{ "type":"separator", "description":"SALADS" },' +
 		'{ "type":"food", "name":"CHICKEN CHILI SALAD", "description":"mixed salad, fried sliced chicken marinated with honey and chili", "price":"25.00" },' +
-		'{ "type":"food", "name":"FENNEL-APPLE SALAD", "description":"with rocket, feta, cranberries and pumpkin seeds", "price":"15.00" },' +
 		'{ "type":"food", "name":"CAESAR`S SALAD", "description":"Lettuce with fried baconstrips, croûtons, Grana Padano, egg and Caesar Dressing", "price":"16.00" } ]'
 );
 const mains = JSON.parse(
