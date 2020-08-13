@@ -152,6 +152,13 @@ function total(){
     total.setAttribute = 'class' ,'h4'
 
     console.log(arr);
+
+    // total.addEventListener('click',order)
+
+    // function order(){
+    //     alert('fvgfbrhk')
+    // }
 }
 
 console.log(arr);
+
