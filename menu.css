@@ -12,10 +12,6 @@ Restaurant Menu
 	--icolor4: #63c8ff;
 }
 
-body {
-	font-family: "Rubik", sans-serif;
-	color: #111;
-}
 
 .container {
 	position: absolute;
@@ -251,6 +247,9 @@ body {
 	font-weight: 700;
 	line-height: 50px;
 	text-align: center;
+}
+.mtop{
+	margin-top: 180px;
 }
 
 .menu-separator {
